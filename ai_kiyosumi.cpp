@@ -10,7 +10,7 @@ namespace saki
 
 Action AiNodoka::think(const TableView &view, Limits &limits)
 {
-
+    (void) limits;
     return Ai::think(view, limits);
 }
 
